@@ -68,16 +68,31 @@ void loop() {
 
 **Upload a video of your working rotary encoder here.**
 
+[Rotary Encoder video](/rotary_encoder720.mov)
 
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+
+Change the value `1.30` to `0.65`. Though that will make it more difficult to distinguish notes.
+
+<pre><code>
+// to distinguish the notes, set a minimum time between them.
+// the note's duration + 30% seems to work well:
+int pauseBetweenNotes = noteDuration * 1.30;
+delay(pauseBetweenNotes);
+// stop the tone playing:
+noTone(8);
+</code></pre>
  
 **b. What song is playing?**
 
+Star Wars
 
 ## Part E. Make your own timer
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
+
+[Zwee Timer video](/zwee_timer720.mov)
 
 **b. Post a link to the completed lab report your class hub GitHub repo.**
