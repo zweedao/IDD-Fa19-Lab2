@@ -1,6 +1,23 @@
 # Digital Timer
- 
+
 Include your responses to the bold questions below. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
+
+## Part 0. Pre-lab 2
+10 ideas:
+1) Egg boiling alarm. Choose a desired setting, the timer will start accordingly. Play sound when finished:
+    - Liquid boiled (4 mins)
+    - Soft boiled (6 mins)
+    - Hard boiled (8 mins)
+2) Chess clock: for 2 chess players to monitor their time spent (example)
+3) Reaction game: 2 players, 2 buttons. Who is faster to hit his button? Display accurate time in milisecond. 
+4) Addition game: 2 players, 2 buttons, 2 stopwatch times displayed on screen. There is a third time called “Total time”, which is the sum of the 2 stopwatch times. Players keep pressing buttons until the sum is a rounded number (e.g. 2 mins 0 seconds)
+5) Hour announcer: Play a different sound / light up a different LED whenever the clock reaches a new hour.
+6) Stand-up reminder: Remind you to stand up for 1 minute every 1 hour
+7) World clock
+8) Stopwatch for runner
+9) Morning alarm clock
+10) Standard timer: Set a timer, then it counts down, then it plays a sound
+
 
 ## Part A. Solder your LCD panel
 
